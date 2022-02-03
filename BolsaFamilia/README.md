@@ -20,3 +20,12 @@ $ ex01_TOTAL_POR_MUNICIPIO_R$.py
 $ ex01_TOTAL_POR_UF_R$.py
 
 ```
+
+<h3>🛠 Tecnologias</h3>
+
+```bash
+
+# Python version 3.8
+# Editor para trabalhar com o código como: VSCode , IDLE Python ou PyCharm.
+
+```
