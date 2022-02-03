@@ -2,7 +2,12 @@
 
 <img src="https://img.shields.io/static/v1?label=Blog&message=Flávio Bendl&color=0dbe98&style=for-the-badge&logo=ghost"/>
 <h2>✨ Funcionalidades</h2>
-<p align="left">🚀 Programas desenvolvidos em linguagem PYTHON, que possuem a funcionalidade de realizar segmentação de dados nos arquivos do Bolsa Família (Programa de Assistência Social do Governo Federal)</p>
+<p align="left">Programas desenvolvidos em linguagem PYTHON, que possuem a funcionalidade de realizar segmentação de dados nos arquivos do Bolsa Família (Programa de Assistência Social do Governo Federal).</p>
+
+<h3>📂 Arquivos</h3>
+<p align="left">Os arquivos de entrada estão disponíveis em [Arquivos do Bolsa Família](https://www.portaltransparencia.gov.br/download-de-dados/bolsa-familia-pagamentos), no formato CSV (comma-separated values).
+</p>
+
 <h3>⚙️ Descrição de cada programa</h3>
 
 ```bash
