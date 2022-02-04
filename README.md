@@ -1,6 +1,6 @@
-# Analise-de-Dados
+# 📰 Analise-de-Dados
 
-## Linguagem de programação Python e seu ecossistema de bibliotecas e ferramentas para Análise de Dados
+## Linguagem de programação Python e seu ecossistema de bibliotecas para Análise de Dados
 - Manipulação
 - Processamento
 - Limpeza
