@@ -9,4 +9,5 @@
 - Visualização de dados
 
 > Bibliotecas
-- Pandas    `Funções para trabalhar com dados estruturados ou tabulares`
+- Pandas      `Funções para trabalhar com dados estruturados ou tabulares`
+- Matplotlib  `Gerar plotagens para visualização de dados`
