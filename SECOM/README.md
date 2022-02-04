@@ -9,6 +9,7 @@
 <h2>✨ Funcionalidades</h2>
 <p align="left">Com uso da biblioteca <strong>Pandas</strong> para:
 </p>
+
 > Funções:
 -    Tratamento de dados ausente
 -    Preencher dados ausentes
