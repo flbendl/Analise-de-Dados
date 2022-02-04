@@ -2,8 +2,8 @@
 
 <img src="https://img.shields.io/static/v1?label=Blog&message=Flávio Bendl&color=0dbe98&style=for-the-badge&logo=ghost"/>
 <h2>✨ Funcionalidades</h2>
-<p align="left">Programas desenvolvidos em linguagem PYTHON, que possuem a funcionalidade de diminuir o tamanho do arquivo do Auxílio Emergência (Programa de Assistência Social do Governo Federal).
-O programa possibilita selecionar quais colunas devem seram gravadas no arquivo de saída.
+<p align="left">Programas desenvolvidos em linguagem PYTHON com funcionalidade de reduzir o tamanho do arquivo do Auxílio Emergência (Programa de Assistência Social do Governo Federal). Esta redução possibilita manipular o arquivo em editores de código como por exemplo o Jupyter Notebook.
+O programa possibilita selecionar quais colunas devem ser gravadas no arquivo de saída.
 Em média os arquivos possuem 8GB de tamanho e 48 milhões de linhas.
 </p>
 
@@ -27,8 +27,12 @@ $ STACK102-auxilioemergencialMULTIPLOSCSV.py
 ```
 
 <h3>🔨 Uso</h3>
-```jsx
-lista=['UF','NOME MUNICÍPIO','NIS BENEFICIÁRIO','VALOR BENEFÍCIO']
+
+```bash
+
+# Esta lista pode ser alterada em reduzir o número de colunas.
+# Exemplo: foi retirado as colunas NIS e NOME BENEFICIARIO
+lista=['UF','NOME MUNICÍPIO','VALOR BENEFÍCIO']
 ```
 
 <h3>🛠 Tecnologias</h3>
