@@ -5,7 +5,7 @@
 <p align="left">Criar visualizações constitui das tarefas mais importantes na análise de dados fazendo parte do processo de análise exploratória. A biblioteca matplotlib é uma ferramenta de plotagens para desktop com excelente qualidadede visualizaçãa. Uso do Jupyter Notebook como editor para plotagem interativa.</p>
 
 <h3>📂 Arquivos</h3>
-<p align="left">Os arquivos de entrada estão disponíveis em</p> 
+<p align="left">Os arquivos de entrada estão disponíveis em:</p> 
 
 [Arquivo](https://github.com/flbendl/Analise-de-Dados/tree/master/GraficosMatplotlib/Data), no formato CSV (comma-separated values).
 
@@ -14,17 +14,14 @@
 
 ```bash
 
-# Totaliza quantiade de pagamentos por Município e gera (Dictionary) como saída do resultado.
-$ ex01_GRAVARdicionario_TOTAL_POR_CIDADE_v4.py
+# Neste estudo são apresentados diversos tipo de gráficos: Dispersão, Linha, Barras.
+$ 01-ESTUDOS-GRAFICOS-Diversos.py
 
-# Totaliza quantidade de pagamentos por Município e gera (List) como saída do resultado.
-$ ex01_TOTAL_POR_MUNICIPIO_QTDE.py
+# Diversos formatos para gráfico de linha são apresentados por este estudo.
+$ 01-ESTUDOS-GRAFICOS-Linha.py
 
-# Totaliza o total pago em R$ por Município e gera (List) como saída do resultado.
-$ ex01_TOTAL_POR_MUNICIPIO_R$.py
-
-# Totaliza o total pago em R$ por Estado (UF) e gera (List) como saída do resultado.
-$ ex01_TOTAL_POR_UF_R$.py
+# Este estudo apresenta análise explorátorio de dados referente ao preço da gásolina no tempo de vários países.
+$ 05-ESTUDOS-GRAFICOS-Caso-real.py
 
 ```
 
@@ -33,6 +30,7 @@ $ ex01_TOTAL_POR_UF_R$.py
 ```bash
 
 # Python version 3.8
-# Editor para trabalhar com o código como: VSCode , IDLE Python ou PyCharm.
+# Jupyter Notebook (Suite ANACONDA)
+# Bibliotecas Pandas, Matplotlib, Numpy.
 
 ```
