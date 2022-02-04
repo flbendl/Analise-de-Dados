@@ -1,45 +1,42 @@
-<h1 align="center">Segmentação de Dados</h1>
+<h1 align="center">Limpeza e preparação dos dados</h1>
 
 <img src="https://img.shields.io/static/v1?label=Blog&message=Flávio Bendl&color=0dbe98&style=for-the-badge&logo=ghost"/>
-<h2>✨ Funcionalidades</h2>
-<p align="left">Programas desenvolvidos em linguagem PYTHON com funcionalidade de reduzir o tamanho do arquivo do Auxílio Emergência (Programa de Assistência Social do Governo Federal). Esta redução possibilita manipular o arquivo em editores de código como por exemplo o Jupyter Notebook.
-O programa possibilita selecionar quais colunas devem ser gravadas no arquivo de saída.
-Em média os arquivos possuem 8GB de tamanho e 48 milhões de linhas.
+
+<h2>⌨️ Descrição</h2>
+<p align="left">Um período significativo do tempo é gasto com preparação dos dados: carga, limpeza, transformação e reorganização.Estas terefas podem ocupar 80% do tempo dos analistas. Grande maioria dos dados não estão formatados corretamente. Por este motivo analistas preferem fazer processamento <strong>ad hoc</strong> utilizando alguma linguagem de programação para este proposito como </stronc>PYTHON</strong>
 </p>
 
+<h2>✨ Funcionalidades</h2>
+<p align="left">Com uso da biblioteca <strong>Pandas</strong> para:
+</p>
+> Funções:
+-    Tratamento de dados ausente
+-    Preencher dados ausentes
+-    Dados duplicados
+-    Manipulação de strings
+-    Filtragem e correção de dados
+-    Substituir valores
+
 <h3>📂 Arquivos</h3>
-<p align="left">Os arquivos de entrada estão disponíveis em [Arquivos do Auxílio Emergêncial](https://www.portaltransparencia.gov.br/download-de-dados/auxilio-emergencial), no formato CSV (comma-separated values).
+<p align="left">O arquivo de entrada está disponíveis no diretório <strong>Data</strong>em (https://github.com/flbendl/Analise-de-Dados/tree/master/SECOM/Data), no formato CSV (comma-separated values).
 </p>
 
 <h3>⚙️ Descrição de cada programa</h3>
 
 ```bash
 
-# Gerar novo arquivo CSV somente com as colunas selecionadas.
-$ STACK102-auxilioemergencial_v2CSV.py
-
-# Gerar novo arquivo CSV somente com Estados (UF) selecionados.
-$ STACK102-auxilioemergencialESTADOCSV.py
-
-# Gerar multiplos arquivos de tamanhos fixos (chunk).
-$ STACK102-auxilioemergencialMULTIPLOSCSV.py
+# Notebook com o código que executa a transformação dos dados.
+$ 10-ORGANIZAR-DADOS-novo-V2.ipynb
 
 ```
 
 <h3>🔨 Uso</h3>
 
-```bash
-
-# Esta lista pode ser alterada em reduzir o número de colunas.
-# Exemplo: foi retirado as colunas NIS e NOME BENEFICIARIO
-lista=['UF','NOME MUNICÍPIO','VALOR BENEFÍCIO']
-```
+<p>
+# Para melhor entendimento das funções que cada tarefa realiza, execute uma célula de cada vez no Notebok.
+</p>
 
 <h3>🛠 Tecnologias</h3>
 
-```bash
-
-# Python version 3.8
-# Editor para trabalhar com o código como: VSCode , IDLE Python ou PyCharm.
-
-```
+-   Python version 3.8
+-   Editor do código será o Jupyter Notebook da suite ANACONDA
